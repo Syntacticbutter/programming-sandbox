@@ -6,6 +6,11 @@
     <title>Home</title>
     <link rel="stylesheet" href="index.css"/>
 </head>
+<style>
+    table, th, td {
+  border: 1px solid;
+}
+</style>
 <body class="backdrop">
     <nav>
         <a href="pictures.html">Pictures</a>
@@ -297,6 +302,25 @@
             </table>
         </div>
 
+        <div class="place-here border">
+            <table class="tryhard">
+                <tr>
+                    <td colspan="3">A</td>
+                    <td>B</td>
+                    <td rowspan="3">C</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">D</td>
+                    <td colspan="3">E</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                </tr>
+            </table>
+
+        </div>
     </div>
 </body>
 </html>

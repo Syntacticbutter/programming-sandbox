@@ -31,3 +31,7 @@
     height: auto;
     background-image: linear-gradient(to right, white, aquamarine);
 }
+
+.tryhard {
+    border-collapse: collapse;
+}
