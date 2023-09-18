@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/home/private/Documents/programming-sandbox/index.css"/>
+</head>
+<style>
+    table, th, td {
+  border: 1px solid;
+}
+</style>
+<body class="backdrop">
+    <nav>
+        <a href="pictures.html">Pictures</a>
+        <a href="ayylmao/nested.html">Videos</a>
+        <a href="resize.html">work in progress</a>
+    </nav>
+    <div class="center-calendar">
+        <!-- <div class="place-here border">
+            <form action="oh.php">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="John"><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+                <input type="date" name="when" id="when">
+                <input type="email" name="email" id="email" placeholder="who@where.com">
+                <input type="tel" name="phone" id="phone" value="+1 1942234152042">
+                <input type="password" name="code" id="code" value="lol lmao">
+                <input type="number" name="digits" id="digits" value="200000000">
+                <input type="submit" value="Go">
+            </form>
+        </div> -->
+        <div class="place-here border">
+            <form action="oh.php">
+                Username: <input type="text" id="username" name="username" placeholder="Joe" size="20">
+                <br><br>
+                Nickname: <input type="text" id="nickname" name="nickname" placeholder="Jooooooo" autofocus>
+                <br><br>
+                Student ID: <input type="number" id="id" name="id" value="001" readonly>
+                <br><br>
+                Year: <input type="number" id="batch" name="batch" value="2023" readonly>
+                <br><br>
+                Hobbies: <br><input type="checkbox" id="hobby1" name="hobby1" value="Reading books">
+                <label for="hobby1"> Reading books</label><br>
+                <input type="checkbox" id="hobby2" name="hobby2" value="Listening to music">
+                <label for="hobby2"> Listening to music</label><br>
+                <input type="checkbox" id="hobby3" name="hobby3" value="Cooking">
+                <label for="hobby3"> Cooking</label><br>
+                <input type="checkbox" id="hobby4" name="hobby4" value="Writing">
+                <label for="hobby4"> Writing</label><br>
+            </form>
+            <br>
+
+            <p>Choose your favorite Web language:</p>
+
+            <form>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+            </form>
+            <br>
+
+            <label for="pact">Who?</label>
+            <select id="pact" name="pact">
+                <option value="Tomato">Tomato</option>
+                <option value="Zombie">Zombie</option>
+                <option value="Muscle">Muscle</option>
+                <option value="Blood">Blood</option>
+                <option value="Sea Cucumber">Sea Cucumber</option>
+                <option value="Bat">Bat</option>
+                <option value="Fox">Fox</option>
+                <option value="Ghost">Ghost</option>
+                <option value="Sword">Sword</option>
+                <option value="Gun">Gun</option>
+                <option value="Eternity">Eternity</option>
+                <option value="Future">Future</option>
+                <option value="Shark">Shark</option>
+                <option value="Angel">Angel</option>
+                <option value="Spider">Spider</option>
+            </select>
+            <br><br>
+
+            <label for="pact">Who?</label>
+            <select name="pact" id="pact">
+                <optgroup label="SPECDIV 4">
+                    <option value="Blood">Blood</option>
+                    <option value="Fox">Fox</option>
+                    <option value="Ghost">Ghost</option>
+                </optgroup>
+                <optgroup label="Expendable">
+                    <option value="Blood">Blood</option>
+                    <option value="Shark">Shark</option>
+                    <option value="Angel">Angel</option>
+                    <option value="Spider">Spider</option>    
+                </optgroup>
+                ><optgroup label="Hostile">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Zombie">Zombie</option>
+                    <option value="Muscle">Muscle</option>
+                    <option value="Sea Cucumber">Sea Cucumber</option>
+                    <option value="Bat">Bat</option>
+                    <option value="Gun">Gun</option>
+                    <option value="Eternity">Eternity</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label for="web_programming">Hunt?</label><br>
+            <textarea id="web_programming" name="web_programming" rows="4" cols="50">
+Learn programming they said, it will be fun they said.
+            </textarea>
+        </div>
+
+        <div class="place-here border">
+            <form>
+                <fieldset>
+                    <legend>Personalia</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="Joe"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Rogan"><br><br>
+                    <input type="submit" value="Go">
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="place-here border">
+            <form>
+                <input list="grunts" name="grunt">
+                <datalist id="grunts">
+                    <option value="Infernal"></option>
+                    <option value="Ghoul"></option>
+                    <option value="Demon"></option>
+                    <option value="Devil"></option>
+                    <option value="Titan"></option>
+                </datalist>
+                <input type="submit" value="Search grunt"/>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
