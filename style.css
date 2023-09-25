@@ -1,5 +1,10 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    background: fixed no-repeat center;
+    background-image: url('https://www.icegif.com/wp-content/uploads/2022/05/icegif-511.gif'); 
+    /* background-image: url('BFV.jpg');  */
+    background-size: cover;
 }
 
 .highlight, #what {
@@ -20,6 +25,35 @@ h1 + p + p {
     color: aquamarine;
 }
 
-em {
+li span em {
     background-color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a:active {
+    color: royalblue;
+}
+
+h1.spread {
+    letter-spacing: 30px;
+}
+
+p.wide {
+    word-spacing: 10px;
+    text-shadow: blue 0px 0px 3px;
 }
