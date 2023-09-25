@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.highlight, #what {
+    background-color: aquamarine;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+footer[name=uoh] {
+    font-size: 50pt;
+}
+
+p.what {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 + p + p {
+    color: aquamarine;
+}
+
+em {
+    background-color: green;
+}
