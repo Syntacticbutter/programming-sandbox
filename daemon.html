@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coney</title>
+</head>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: hsl(180, 50%, 60%);
+            opacity: 0.35;
+        }
+
+        ul {
+            list-style: square;
+            /* list-style-image: url('https://w7.pngwing.com/pngs/429/954/png-transparent-key-key-angle-desktop-wallpaper-password.png');
+            margin: 500px; */
+        }
+
+        table, tr, td {
+            border: solid 2px black;
+                /* border-collapse: collapse; */
+                border-collapse: separate;
+                border-spacing: 20px 5px; 
+                    /* ^only werks with border-collapse separate */
+            empty-cells: hide;
+            margin-left: 25px;
+            /* visibility: collapse; */
+        }
+
+        div.huh {
+            width: 100px;
+            height: 100px;
+            border: black solid 1px;
+            /* display: block; */
+            /* display: inline; */
+            display: inline-block;
+            cursor: wait;
+            /* visibility: collapse; */
+        }
+        
+        div {
+            width: 100px;
+            height: 100px;
+            border: black solid 1px;
+            /* display: block; */
+            /* display: inline; */
+            display: inline;
+            cursor: wait;
+            /* visibility: collapse; */
+
+            position: relative;
+            bottom: -100px;
+            border-image-source: url('horse.jpg');
+            border-image-repeat: space;
+            border-image-slice: 30;
+            border-image-slice: 20px;
+        }
+
+    </style>
+<body>
+    <ul>
+        <li>I</li>
+        <li>support</li>
+        <li>the</li>
+        <li>current</li>
+        <li>thing</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <br>
+    <div class="huh">
+        bruh one
+    </div>
+    <div>
+        bruh two
+    </div>
+</body>
+</html>
