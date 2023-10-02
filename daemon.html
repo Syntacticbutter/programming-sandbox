@@ -7,7 +7,7 @@
     <title>Coney</title>
 </head>
     <style>
-        body {
+        /* body {
             font-family: 'Times New Roman', Times, serif;
             background-color: hsl(180, 50%, 60%);
             opacity: 0.35;
@@ -16,8 +16,8 @@
         ul {
             list-style: square;
             /* list-style-image: url('https://w7.pngwing.com/pngs/429/954/png-transparent-key-key-angle-desktop-wallpaper-password.png');
-            margin: 500px; */
-        }
+            margin: 500px;
+        } */
 
         table, tr, td {
             border: solid 2px black;
@@ -30,26 +30,30 @@
             /* visibility: collapse; */
         }
 
-        div.huh {
+        div {
+            background-image: linear-gradient(90deg, pink, aquamarine, orange);
+        }
+
+        /* div.huh {
             width: 100px;
             height: 100px;
             border: black solid 1px;
-            /* display: block; */
-            /* display: inline; */
+            display: block;
+            display: inline;
             display: inline-block;
             cursor: wait;
-            /* visibility: collapse; */
+            visibility: collapse;
         }
         
         div {
             width: 100px;
             height: 100px;
             border: black solid 1px;
-            /* display: block; */
-            /* display: inline; */
+            display: block;
+            display: inline;
             display: inline;
             cursor: wait;
-            /* visibility: collapse; */
+            visibility: collapse;
 
             position: relative;
             bottom: -100px;
@@ -57,10 +61,29 @@
             border-image-repeat: space;
             border-image-slice: 30;
             border-image-slice: 20px;
+        } */
+
+        .tooltip .tooltipindex {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
         }
 
     </style>
-<body>
+<!-- <body>
     <ul>
         <li>I</li>
         <li>support</li>
@@ -88,6 +111,13 @@
     </div>
     <div>
         bruh two
+    </div>
+
+</body> -->
+<body style="text-align: center;">
+    <p>Move the mouse over the text below:</p>
+    <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
     </div>
 </body>
 </html>
